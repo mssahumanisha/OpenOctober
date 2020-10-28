@@ -1,4 +1,4 @@
-n = int(input("Enter the number: "))
+n = int(input('Enter the number: '))
 a = [] 
 for i in range(n):
   a.append([])
