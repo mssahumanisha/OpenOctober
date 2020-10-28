@@ -29,7 +29,7 @@ for i in range(num):
         position1 = i
     if x2 == position[i]:
         position2 = i
-print('Result: ')
+print('Result:')
 if house_number[position1] > house_number[position2]:
     print ('[%d,%d]' %(house_number[position2], house_number[position1]))
 else:
